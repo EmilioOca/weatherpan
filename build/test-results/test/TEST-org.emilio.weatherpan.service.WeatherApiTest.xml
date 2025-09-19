@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.emilio.weatherpan.service.WeatherApiTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2025-09-19T01:36:20.599Z" hostname="emilioTp" time="0.0">
+  <properties/>
+  <testcase name="testCheckDtoIsCompliant()" classname="org.emilio.weatherpan.service.WeatherApiTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

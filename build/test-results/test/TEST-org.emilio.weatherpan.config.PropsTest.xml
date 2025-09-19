@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.emilio.weatherpan.config.PropsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-09-19T01:36:19.365Z" hostname="emilioTp" time="0.023">
+  <properties/>
+  <testcase name="wheaderCodesTest()" classname="org.emilio.weatherpan.config.PropsTest" time="0.009"/>
+  <testcase name="locationsTest()" classname="org.emilio.weatherpan.config.PropsTest" time="0.006"/>
+  <testcase name="missigKeyFailsGently()" classname="org.emilio.weatherpan.config.PropsTest" time="0.006"/>
+  <system-out><![CDATA[2025-09-18T22:36:19.345-03:00  INFO 852412 --- [WeatherPan] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.emilio.weatherpan.config.PropsTest]: PropsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-18T22:36:19.358-03:00  INFO 852412 --- [WeatherPan] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.emilio.weatherpan.WeatherPanApplication for test class org.emilio.weatherpan.config.PropsTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

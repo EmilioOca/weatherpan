@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.emilio.weatherpan.service.WeatherServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-09-19T01:36:21.066Z" hostname="emilioTp" time="0.017">
+  <properties/>
+  <testcase name="checkBsAsCity()" classname="org.emilio.weatherpan.service.WeatherServiceTest" time="0.008"/>
+  <testcase name="checkValidCity()" classname="org.emilio.weatherpan.service.WeatherServiceTest" time="0.008"/>
+  <system-out><![CDATA[2025-09-18T22:36:20.604-03:00  INFO 852412 --- [WeatherPan] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.emilio.weatherpan.service.WeatherServiceTest]: WeatherServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-18T22:36:20.620-03:00  INFO 852412 --- [WeatherPan] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.emilio.weatherpan.WeatherPanApplication for test class org.emilio.weatherpan.service.WeatherServiceTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.5)
+
+2025-09-18T22:36:20.660-03:00  INFO 852412 --- [WeatherPan] [    Test worker] o.e.w.service.WeatherServiceTest         : Starting WeatherServiceTest using Java 21.0.3 with PID 852412 (started by emilio in /home/emilio/develop/UdeSa/repo/udesa-pp.github.io/java/WeatherPan)
+2025-09-18T22:36:20.660-03:00  INFO 852412 --- [WeatherPan] [    Test worker] o.e.w.service.WeatherServiceTest         : No active profile set, falling back to 1 default profile: "default"
+2025-09-18T22:36:20.983-03:00  INFO 852412 --- [WeatherPan] [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-09-18T22:36:21.063-03:00  INFO 852412 --- [WeatherPan] [    Test worker] o.e.w.service.WeatherServiceTest         : Started WeatherServiceTest in 0.439 seconds (process running for 4.939)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
