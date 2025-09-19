@@ -43,12 +43,12 @@ public class WeatherController {
                                                                            "humidity": "77 %",
                                                                            "weather": "Mainly clear"
                                                                          }""" )))
-    public ResponseEntity listCartIdentifiedAs( @PathVariable String city ) {
+    public ResponseEntity chekCity( @PathVariable String city ) {
         return ResponseEntity.ok( weatherService.checkCity( city.toLowerCase() ) );
     }
 
     @GetMapping( "/info" )
-    public ResponseEntity listCartIdentifiedAs() {
+    public ResponseEntity info() {
         return ResponseEntity.ok( weatherService.info() );
     }
 
